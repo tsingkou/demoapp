@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:title="@string/menutitle"
+        android:icon="@drawable/aaa">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/menu1"
+                    android:title="menu1"/>
+                <item android:id="@+id/menu2"
+                    android:title="menu2"/>
+            </group>
+        </menu>
+    </item>
+    <item android:id="@+id/menu3"
+        android:title="menu测试2">
+    </item>
+    <item android:title="菜单测试2"
+        android:icon="@drawable/aaa">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/menu4"
+                    android:title="menu4"/>
+                <item android:id="@+id/menu5"
+                    android:title="menu5"/>
+                <item android:id="@+id/menu6"
+                    android:title="menu6"/>
+            </group>
+        </menu>
+    </item>
+</menu>

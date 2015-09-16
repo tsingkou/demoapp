@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">茉莉花</string>
+    <string name="mlh">茉莉花使者</string>
+    <string name="ilove">i love java</string>
+    <string name="information">电话：18710860000;email:123456@qq.com</string>
+    <string name="hint">请输入你的密码</string>
+    <string name="tip">tip</string>
+    <string name="menutitle">菜单测试</string>
+    <string name="clickme">clickme</string>
+    
+
+</resources>
