@@ -9,6 +9,8 @@
     <string name="tip">tip</string>
     <string name="menutitle">菜单测试</string>
     <string name="clickme">clickme</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
     
 
 </resources>
