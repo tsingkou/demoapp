@@ -14,7 +14,7 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.demoapp.fifthchapter.ActionDataActivity"
+            android:name="com.example.demoapp.tenthchapter.BindServiceTest"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,6 +29,19 @@
 			android:name="com.example.demoapp.fourthchapter.SecondFragmentActivity"
 			android:label="注册结果" >
 		</activity>
+		
+		<service android:name="com.example.demoapp.tenthchapter.FirstService">
+			<intent-filter >
+			    <action android:name="com.example.demoapp.tenthchapter.FIRST_SERVICE"/>
+			</intent-filter>		
+		</service>
+		<service android:name="com.example.demoapp.tenthchapter.service.BindService">
+			<intent-filter >
+			    <action android:name="com.example.demoapp.tenthchapter.BINDSERVICE"/>
+			</intent-filter>		
+		</service>
+		
+		
     </application>
 	
     <!-- 运行程序所需要的权限 -->

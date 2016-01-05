@@ -11,6 +11,9 @@
     <string name="clickme">clickme</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
-    
-
+    <string name="start">开始</string>
+    <string name="stop">结束</string>
+    <string name="bind">bind</string>
+    <string name="unbind">unbind</string>
+    <string name="getServiceStatus">getServiceStatus</string>
 </resources>
