@@ -27,7 +27,7 @@ public class BindService extends Service {
 	@Override
 	public void onCreate(){
 		super.onCreate();
-		System.out.println("service is oncreate");
+		System.out.println("service is oncreate！");
 		new Thread(){
 			@Override
 			public void run(){

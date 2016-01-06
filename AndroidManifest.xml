@@ -30,7 +30,7 @@
 			android:label="注册结果" >
 		</activity>
 		
-		<service android:name="com.example.demoapp.tenthchapter.FirstService">
+		<service android:name="com.example.demoapp.tenthchapter.service.FirstService">
 			<intent-filter >
 			    <action android:name="com.example.demoapp.tenthchapter.FIRST_SERVICE"/>
 			</intent-filter>		

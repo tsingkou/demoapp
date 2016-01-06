@@ -1,4 +1,4 @@
-package com.example.demoapp.tenthchapter;
+package com.example.demoapp.tenthchapter.service;
 
 import android.app.Service;
 import android.content.Intent;
